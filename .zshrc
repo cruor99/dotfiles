@@ -83,6 +83,7 @@ alias gc='git commit -m'
 alias ga='git add .'
  
 plugins=(git npm ssh-agent taskwarrior themes)
+zstyle :omz:plugins:ssh-agent identities id_rsa
  
 source $ZSH/oh-my-zsh.sh
  

@@ -1,0 +1,1 @@
+/home/cruor/dotfiles/.i3

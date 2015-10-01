@@ -59,6 +59,7 @@ alias la='ls -al'
 alias s='sudo'
 alias et='sudo rm -rf /tmp'
 alias sw='sudo wget'
+alias vim='/usr/local/bin/vim'
 # Edit Config
 alias zr='source ~/.zshrc'
 alias ze='vim ~/.zshrc'
@@ -86,7 +87,12 @@ plugins=(git npm ssh-agent taskwarrior themes)
 source $ZSH/oh-my-zsh.sh
  
 # Customize to your needs...
-export PATH=/opt/telegram:$PATH
- 
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.7) 
+export JDK_HOME=$(/usr/libexec/java_home -v 1.7)
+export JRE_HOME=$(/usr/libexec/java_home -v 1.7)
+export PATH=${PATH}:/Users/cruor/.buildozer/android/platform/android-sdk-21/platform-tools
 # Disable auto-correct
 unsetopt correct_all
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=/Users/cruor/.rvm/gems/ruby-1.9.3-p551-dev/bin:/Users/cruor/.rvm/gems/ruby-1.9.3-p551-dev@global/bin:/Users/cruor/.rvm/rubies/ruby-1.9.3-p551-dev/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/cruor/.buildozer/android/platform/android-sdk-21/platform-tools:/Users/cruor/.rvm/bin:/Users/cruor/.buildozer/android/platform/android-sdk-21

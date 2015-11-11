@@ -94,3 +94,5 @@ unsetopt correct_all
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=~/.rvm/gems/ruby-1.9.3-p551-dev/bin:~/.rvm/gems/ruby-1.9.3-p551-dev@global/bin:~/.rvm/rubies/ruby-1.9.3-p551-dev/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:~/.buildozer/android/platform/android-sdk-21/platform-tools:~/.rvm/bin:~/.buildozer/android/platform/android-sdk-21
+export WORKON_HOME=/home/cruor/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh

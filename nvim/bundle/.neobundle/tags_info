@@ -1,0 +1,10 @@
+gist-vim
+jedi-vim
+neobundle.vim
+neomru.vim
+nerdtree
+unite.vim
+vim-airline
+vim-flake8
+vimproc.vim
+webapi-vim
